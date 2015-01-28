@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RoyTestApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis. Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec tortor.</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="button_notify">Notify</string>
+    <string name="button_swipe">Swipe</string>
+    <string name="title_activity_swipe">SwipeActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_saveSharedPref">save to shared Preference</string>
+    <string name="button_saveFile">save to File</string>
+    <string name="saved_input">saved_input</string>
+    <string name="saved_input_default">please input you message here</string>
+    <string name="button_startIntent_call">call the input number</string>
+    <string name="button_startIntent_email">send email</string>
+    <string name="chooser_title">send message via</string>
+    <string name="button_startIntent_chooser">send via</string>
+    <string name="title_activity_display_view">BookInfo(via ISBN/Douban)</string>
+    <string name="button_search_isbn">Search Book via ISBN</string>
+    <string name="button_pickContact">Pick &amp; Call contact</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+</resources>

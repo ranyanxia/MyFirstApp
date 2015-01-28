@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">测试应用</string>
+    <string name="action_settings">设置</string>
+    <string name="action_search">搜索</string>
+    <string name="edit_message">请输入一条消息</string>
+    <string name="button_send">发送</string>
+    <string name="title_activity_display_message">我的消息</string>
+    <string name="hello_world">你好，世界 !</string>
+    <string name="action_reply">回复</string>
+    <string name="action_share">分享</string>
+    <string name="new_message_notification_placeholder_text_template">通知 %1$s 还有乱七八糟的东西</string>
+    <string name="new_message_notification_title_template">新的消息: %1$s</string>
+    <string name="button_notify">通知</string>
+    <string name="button_swipe">滑动</string>
+    <string name="title_activity_swipe">滑动界面</string>
+    <string name="title_section1">第一页</string>
+    <string name="title_section2">第二页</string>
+    <string name="title_section3">第三页</string>
+    <string name="button_saveFile">保存至文件</string>
+    <string name="button_saveSharedPref">保存至shared Preference</string>
+    <string name="saved_input"></string>
+    <string name="saved_input_default">请输入消息</string>
+    <string name="button_startIntent_call">拨号</string>
+    <string name="button_startIntent_email">发邮件</string>
+    <string name="button_search_isbn">搜索ISBN</string>
+    <string name="title_activity_display_view">书籍信息(via ISBN/Douban)</string>
+    <string name="button_pickContact">选择 &amp; 打电话</string>
+
+</resources>
