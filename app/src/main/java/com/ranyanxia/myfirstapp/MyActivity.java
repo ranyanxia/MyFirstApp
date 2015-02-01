@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ShareActionProvider;
 
 import org.apache.http.protocol.HTTP;
 
@@ -34,6 +35,7 @@ public class MyActivity extends ActionBarActivity {
     private static final int PICK_CONTACT_REQUEST = 1;
 
     private String inputMsg;
+    private ShareActionProvider mShareActionProvider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +48,19 @@ public class MyActivity extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_my, menu);
+
+        // Locate & assign share provider
+//        MenuItem shareItem = menu.findItem(R.id.action_share);
+//        mShareActionProvider = (ShareActionProvider) shareItem.getActionProvider();
+
         return true;
+    }
+
+    // Call to update the share intent
+    private void setShareIntent(Intent shareIntent) {
+        if (mShareActionProvider != null) {
+            mShareActionProvider.setShareIntent(shareIntent);
+        }
     }
 
     @Override
@@ -80,9 +94,15 @@ public class MyActivity extends ActionBarActivity {
             case R.id.action_search:
                 openSearch();
                 return true;
+//            case R.id.action_share:
+//                openShare();
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    private void openShare() {
+        //show share action
     }
 
     @Override
